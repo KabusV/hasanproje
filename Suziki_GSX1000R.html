@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki GSX-R1000</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, p {
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+        }
+        input[type="submit"], button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Suzuki GSX-R1000</h1>
+        <img src="1000x1000_f1c450a7e15d4a7f8bced49abb45dce8-ashx__1989785870.jpg" width="500px" height="350px" alt="Suzuki GSX-R1000">
+        <h2>Genel Bilgiler</h2>
+        <p>Suzuki GSX-R1000, Japon motosiklet üreticisi Suzuki tarafından üretilen ve sürekli geliştirilen bir süper spor motosiklettir. İlk olarak 2001 yılında piyasaya sürülen GSX-R1000, hız, performans ve teknolojiyi bir araya getirerek yarış pistlerinde ve sokaklarda büyük beğeni toplamaktadır.</p>
+        
+        <h2>Teknik Özellikler</h2>
+        <ul>
+            <li>Motor: 999cc, 4 silindirli, sıvı soğutmalı, DOHC</li>
+            <li>Güç: 199 beygir @ 13,200 rpm</li>
+            <li>Tork: 117 Nm @ 10,800 rpm</li>
+            <li>Şanzıman: 6 vites, zincir tahrik</li>
+            <li>Şasi: Alüminyum alaşım</li>
+            <li>Süspansiyon: Ön - USD çatal, Arka - Ayarlanabilir monoshock</li>
+            <li>Frenler: Ön - Çift disk, Arka - Tek disk</li>
+            <li>Ön Lastik: 120/70 ZR17</li>
+            <li>Arka Lastik: 190/55 ZR17</li>
+        </ul>
+        
+        <h2>Fiyat ve Yaygınlık</h2>
+        <p>Suzuki GSX-R1000, genellikle ülkeden ülkeye ve model yılına göre değişen farklı fiyatlarla satılmaktadır. Ayrıca, bu motosiklet genellikle Suzuki bayilerinde ve ikinci el motosiklet pazarlarında bulunabilir.</p>
+    </div>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Motor Satış</p>
+            <p>Adres: Mehmet Ağa Mahallesi, Selman Sokak No: 123, İl: Kocaeli</p>
+            <p>Telefon: 0554-173-7753</p>
+            <p>E-posta: motorsatis@gmail.com</p>
+        </div>
+    </section>
+    
+    <div class="container">
+        <h2>İletişim Formu</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">İsim:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefon_numarasi">Telefon:</label>
+                <input type="text" id="telefon_numarasi" name="telefon" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="Gönder">
+        </form>
+        <button onclick="goBack()">Geri</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

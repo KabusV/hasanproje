@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha YZF R1</title>
+	    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, p {
+            color: #333;
+        }
+			.form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+    <h1>Yamaha YZF R1</h1>
+	<img src="2020-Yamaha-YZF1000R1-EU-Icon_Blue-Static-004-03.jpg" width="800px" alt="Yamaha YZF R1">
+    <p>Yamaha YZF R1, Japon motosiklet üreticisi Yamaha tarafından üretilen yüksek performanslı bir spor motosiklettir.</p>
+    <h2>Teknik Özellikler</h2>
+    <ul>
+        <li>Motor: 998 cc, DOHC, sıvı soğutmalı, dört silindirli</li>
+        <li>Güç: 200 hp</li>
+        <li>Tork: 112 Nm</li>
+        <li>Şasi: Alüminyum Deltabox</li>
+        <li>Süspansiyon: Ön - Çift sıvı dolgulu teleskopik çatal, Arka - Bağlantılı tamamen ayarlanabilir süspansiyon</li>
+        <li>Frenler: Ön - Çift disk, Arka - Tek disk</li>
+        <li>ABS: Var</li>
+        <li>Şanzıman: 6 vitesli</li>
+    </ul>
+	</div>
+	<section id="contact">
+		<div class="container">
+        <h2>İletişim</h2>
+        <p>Motor SAtış</p>
+        <p>Adres: Mehmet Ağa Mahallesi, Selman Sokak No: 123 , İl: Kocaeli</p>
+        <p>Telefon: 0554-173-7753</p>
+        <p>E-posta: motorsatıs@gmail.com</p>
+       
+		</div>
+    </section>
+
+    <div class="container">
+        <h2>İletişim Formu</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">İsim:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+			<div class="form-group">
+			<label for="telefon numarası">Telefon:</label>
+			<input type="text" id="telefon numarası" name="telefon" required>
+			</div>
+            <div class="form-group">
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="Gönder">
+        </form>
+		<button class="back-button" onclick="goBack()">Geri</button>
+    </div>
+	<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+
+	
+</body>
+</html>

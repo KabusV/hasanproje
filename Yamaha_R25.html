@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R25 Teknik Özellikler</title>
+		    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, p {
+            color: #333;
+        }
+			.form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+<h1>R25 Teknik Özellikler</h1>
+<img src="r25.webp" width="700px" height="400px" alt="Yamaha R25">
+<ul>
+  <li><strong>Motor Tipi:</strong> 249 cc, 2 silindirli, sıvı soğutmalı, DOHC</li>
+  <li><strong>Motor Hacmi:</strong> 249 cc</li>
+  <li><strong>Maksimum Güç:</strong> 35 hp @ 12,000 rpm</li>
+  <li><strong>Maksimum Tork:</strong> 22 Nm @ 10,000 rpm</li>
+  <li><strong>Şanzıman:</strong> 6 vites, manuel</li>
+  <li><strong>Ön Süspansiyon:</strong> Teleskopik çatal</li>
+  <li><strong>Arka Süspansiyon:</strong> Yapısal monoshock</li>
+  <li><strong>Fren Sistemi:</strong> Ön ve arka disk frenler</li>
+  <li><strong>Lastikler:</strong> Ön: 110/70-17, Arka: 140/70-17</li>
+  <li><strong>Ağırlık:</strong> 166 kg</li>
+</ul>
+</div>
+		<section id="contact">
+		<div class="container">
+        <h2>İletişim</h2>
+        <p>Motor SAtış</p>
+        <p>Adres: Mehmet Ağa Mahallesi, Selman Sokak No: 123 , İl: Kocaeli</p>
+        <p>Telefon: 0554-173-7753</p>
+        <p>E-posta: motorsatıs@gmail.com</p>
+       
+		</div>
+    </section>
+	 <div class="container">
+        <h2>İletişim Formu</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">İsim:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+			<div class="form-group">
+			<label for="telefon numarası">Telefon:</label>
+			<input type="text" id="telefon numarası" name="telefon" required>
+			</div>
+            <div class="form-group">
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="Gönder">
+        </form>
+		<button class="back-button" onclick="goBack()">Geri</button>
+    </div>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>
